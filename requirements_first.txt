@@ -1,0 +1,26 @@
+asn1crypto==1.2.0
+certifi==2022.12.7
+cffi==1.15.1
+chardet==5.0.0
+cryptography==39.0.1
+cython==0.29.32
+h5py==3.8.0
+idna==3.4
+matplotlib==3.6.3
+numpy==1.24.1
+pandas==1.5.3
+pycparser==2.21
+pyopenssl==23.0.0
+pyqt5==5.15.7
+pysocks==1.7.1
+pytz==2022.7.1
+requests==2.28.2
+scipy==1.10.0
+seaborn==0.12.2
+setuptools==65.5.0
+six==1.16.0
+tornado==6.2
+tqdm==4.64.1
+urllib3==1.26.14
+wheel==0.38.4
+perl -i -pe 's/AT_CHECK/TORCH_CHECK/' multiperson/mmdetection/mmdet/ops/roi_align/src/roi_align_cuda.cpp multiperson/mmdetection/mmdet/ops/roi_pool/src/roi_pool_cuda.cpp multiperson/mmdetection/mmdet/ops/nms/src/nms_cuda.cpp /leonardo/home/userexternal/lsantos0/multiperson/mmdetection/mmdet/ops/dcn/src/deform_conv_cuda.cpp multiperson/mmdetection/mmdet/ops/sigmoid_focal_loss/src/sigmoid_focal_loss.cpp multiperson/mmdetection/mmdet/ops/masked_conv/src/masked_conv2d_cuda.cpp multiperson/mmdetection/mmdet/ops/dcn/src/deform_pool_cuda.cpp
